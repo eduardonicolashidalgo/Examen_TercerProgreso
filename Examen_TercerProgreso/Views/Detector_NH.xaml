@@ -12,7 +12,7 @@
         <ListView x:Name="Lista">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding IdDetector}" Detail="{Binding title}"/>
+                    <TextCell Text="{Binding id}" Detail="{Binding title}"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

@@ -12,7 +12,7 @@ public partial class Detector_NH : ContentPage
 	public async void Button_Clicked(object sender, EventArgs e)
 	{
 		var request = new HttpRequestMessage();
-		request.RequestUri = new Uri("https://api-cepalstat.cepal.org/apispec_1.json");
+		request.RequestUri = new Uri("https://jsonplaceholder.typicode.com/comments");
 		request.Method = HttpMethod.Get;
 		request.Headers.Add("Accept", "aplication/json");
 
